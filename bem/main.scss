@@ -14,20 +14,20 @@
 }
 
 .produto {
-  &__prodduto-imagem {
+  &__imagem {
     width: 100%;
   }
-  &__produto-nome {
+  &__nome {
     font-size: 1.2em;
     margin: 8px 0;
   }
-  &__produto-descricao {
+  &__descricao {
     color: gray;
   }
 }
 
-.em-destaque {
-  /* modificador */
+// Modificadores
+.produto--em-destaque {
   border: 2px solid gold;
   padding: 8px;
   background-color: #ffff42;
